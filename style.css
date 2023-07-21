@@ -13,7 +13,7 @@ header {
     width: 100%;
     background-color: #F3F3F3;
     color: black;
-    font-size: 30px;
+    font-size: 19px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-bottom: solid black;
     display: flex;
@@ -183,4 +183,32 @@ footer a {
 
 .socials:hover {
     width: 30%;
+}
+form{
+    margin: 3%;
+    border-radius: 5px;
+    border: solid 0.5px black;
+   
+    text-align: center;
+
+}
+input{
+    margin: 2%;
+    border: black solid 0.5px;
+
+    padding-left:2%;
+    padding: 1%;
+    padding-right:2%;
+    border-radius: 4px;
+}
+#message{
+   height:60px;
+   width:45%;
+   text-overflow: ellipsis;
+
+}
+input[type=submit]{
+    background-color: rgba(255, 36, 36, 0.74);
+    padding-left:3%;
+    padding-right:3%;
 }
