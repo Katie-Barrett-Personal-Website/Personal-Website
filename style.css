@@ -62,8 +62,8 @@ main {
     color:#212731;
     display: flex;
     flex-direction: column;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 190px;
+    padding-right: 190px;
 }
 
 .section {
@@ -153,6 +153,48 @@ main {
 
 .description {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.projects {
+    background-color: #99B8D6;
+    color: #212731;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.projectHeading {
+    background-color: #F3F3F3;
+    color: #212731;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.headingDiv {
+    background-color: #F3F3F3;
+    color: #212731;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+
+.projectDiv {
+    background-color: #F3F3F3;
+    color: #212731;
+    display: flex;
+    flex-direction: row;
+}
+
+.projectImages {
+    width: 30%;
+    display: inline-flex;
+    padding-right: 15px;
 }
 
 footer {
